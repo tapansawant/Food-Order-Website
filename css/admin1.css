@@ -1,0 +1,133 @@
+/*
+    Author : Tapan Sawant;
+    Theme : Food Order Website Admin;
+    Version : 1.0;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-centre{
+    text-align: center;   
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+
+table tr th{
+    border-bottom: 1px solid gray;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #40739e;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #0097e6;
+}
+
+.btn-secondary{
+    background-color: #4cd137;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #44bd32;
+}
+
+.btn-danger{
+    background-color:#e55039;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #eb2f06;
+}
+
+.success{
+    color: #44bd32;
+}
+.error{
+    color:#e84118 ;
+}
+/* CSS for footer */
+.footer{
+    background-color: #ff4757;
+    color: cornsilk;
+}
+
+/* CSs for menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none; /*dot kadhnyasathi*/
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+
+/*CSS for main content */
+.main-content{
+    
+    background-color: #ced6e0;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: cornsilk;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for login */
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
